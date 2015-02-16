@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   api_key:
     secure: hRo4xezYR6TxRtFoM5Q+pNXGLV60RUC9qbbEYyGI9KLtslLLn7CFpVTQjM6DBCT6qvrinv5S65DTmad7KM9Ji0g0N0FFuqJ9uRoC985HuvckngNEyxXNqli/aqJi4lL0bRQ/NsZZ8escjkAAnsRXuljurpM3w+iZtnRtOObl4b8=
-  app: travis-test-app
+  app: polar-escarpment-7784
   run:
     - "rake db:migrate"
     - restart
